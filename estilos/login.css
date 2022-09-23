@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font_padrao);
+}
+
+:root {
+    --font_padrao: 'Poppins';
 }
 
 main {
@@ -11,15 +16,20 @@ main {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    padding: 10px;
 }
 
 .formulario {
     width: 300px;
     height: auto;
 
-    padding: 10px;
+    padding: 20px;
 
     border: 1px solid black;
 
@@ -27,9 +37,14 @@ main {
     flex-direction: column;
 }
 
+label {
+    padding: 5px;
+}
+
 input {
     width: auto;
     height: 2em;
+    padding: 5px;
 
     border: 1px solid black;
     border-radius: 2px;
@@ -41,6 +56,6 @@ input {
     margin-top: 10px;
 
     color: white;
-    font-weight: bold;
+    font-size: 1rem;
     background-color: deepskyblue;
 }
