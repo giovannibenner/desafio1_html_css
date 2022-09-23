@@ -20,27 +20,36 @@ main {
     height: 100%;
 
     border-right: 1px solid lightgray;
+
+    background-color: gray;
 }
 
 
 .sidemenu-item > a {
     width: 100%;
+
+    color: white;
     text-decoration: none;
 
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .sidemenu-item > a:hover {
-    color: white;
+    padding: 5px;
 
-    background-color: gray;
+    color: black;
+    background-color: white;
+
+    border-bottom: 3px solid deepskyblue;
+}
+
+.item-icon {
+    margin-left: 30%;
 }
 
 .item {
     list-style: none;
-    font-weight: bold;
 
     padding: 10px;
 }
