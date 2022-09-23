@@ -5,3 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 300px;
+    height: auto;
+
+    padding: 10px;
+
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: auto;
+    height: 2em;
+
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.button {
+    height: 4em;
+
+    margin-top: 10px;
+
+    color: white;
+    font-weight: bold;
+    background-color: deepskyblue;
+}
